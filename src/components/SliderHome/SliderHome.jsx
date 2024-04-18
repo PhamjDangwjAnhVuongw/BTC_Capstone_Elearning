@@ -3,7 +3,7 @@ import { Carousel } from "antd";
 
 const SliderHome = () => {
   return (
-    <div className="carousel_slider max-w-7xl mx-auto my-auto w-full mt-2">
+    <div className="carousel_slider max-w-8xl mx-auto my-auto w-full mt-2">
       <Carousel
         autoplay
         nextArrow={
