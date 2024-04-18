@@ -1,0 +1,58 @@
+.carousel_slider {
+    .slider {
+        height: 110vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        max-width: 110%;
+        height: auto;
+    }
+    .slider img {
+        max-width: 120%;
+        max-height: 120%;
+        height: auto;
+        object-fit: contain;
+        vertical-align: middle;
+        border: 2px solid black;
+    }
+    .slick-next {
+        color: #9e9e9e;
+        font-size: 30px;
+        right: 20px;
+        z-index: 2;
+        &:hover {
+            color: lightgrey;
+        }
+        &::before {
+            display: none;
+        }
+    }
+    .slick-prev {
+        color: #9e9e9e;
+        font-size: 30px;
+        left: 10px;
+        z-index: 2;
+        &:hover {
+            color: lightgrey;
+        }
+        &::before {
+            display: none;
+        }
+    }
+    .ant-carousel .slick-dots li button {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: #ffb6ac;
+        transition: background-color 0.5s ease;
+    }
+
+    .ant-carousel .slick-dots li.slick-active button {
+        background-color: #dc583b; /* Màu đỏ cho dots khi active */
+    }
+
+    .slick-dots-bottom {
+        bottom: 20px;
+    }
+}
