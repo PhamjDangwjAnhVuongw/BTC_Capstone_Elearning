@@ -8,12 +8,12 @@ const SliderHome = () => {
         autoplay
         nextArrow={
           <div>
-            <i class="fa-light fa-circle-arrow-right"></i>
+            <i class="fa-light fa-arrow-right"></i>
           </div>
         }
         prevArrow={
           <div>
-            <i class="fa-light fa-circle-arrow-left"></i>
+            <i class="fa-light fa-arrow-left"></i>
           </div>
         }
         dots={true}

@@ -1,18 +1,20 @@
 .carousel_slider {
     .slider {
-        height: 120vh;
+        height: 100vh;
         display: flex;
         justify-content: center;
         align-items: center;
         overflow: hidden;
-        max-width: 110%;
+        max-width: 100%;
         height: auto;
+        margin-right: auto;
+        margin-left: auto;
     }
     .slider img {
-        max-width: 130%;
-        max-height: 130%;
+        max-width: 100vh;
+        max-height: 100vh;
         height: auto;
-        object-fit: contain;
+        object-fit: cover;
         vertical-align: middle;
         border: 2px solid black;
     }
@@ -22,7 +24,7 @@
         right: 20px;
         z-index: 2;
         &:hover {
-            color: lightgrey;
+            color: #f77f64;
         }
         &::before {
             display: none;
@@ -34,7 +36,7 @@
         left: 10px;
         z-index: 2;
         &:hover {
-            color: lightgrey;
+            color: #f77f64;
         }
         &::before {
             display: none;
