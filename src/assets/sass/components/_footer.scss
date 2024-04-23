@@ -60,6 +60,57 @@
     }
 }
 
+/* Responsive CSS */
+@media (max-width: 1200px) {
+    .footer_title {
+        font-size: 20px;
+    }
+
+    .footer_item li,
+    span {
+        line-height: 35px;
+    }
+
+    .footer_g1 li {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer_title {
+        font-size: 18px;
+    }
+
+    .footer_item li,
+    span {
+        line-height: 30px;
+    }
+
+    .footer_g1 li {
+        padding: 5px;
+    }
+
+    .footer_g1 i {
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 479px) {
+    .footer_title {
+        font-size: 16px;
+    }
+
+    .footer_item li,
+    span {
+        font-size: 14px;
+    }
+
+    .footer_bottom {
+        flex-direction: column;
+    }
+}
+
 .ant-back-top-content {
     border-radius: 10px !important;
 }

@@ -2,7 +2,34 @@
 
 Phạm Đặng Anh Vương
 
-1. XÂY DỰNG LAYOUT & Responsive:
+## I. Tổng quan:
+
+- Yêu cầu chức năng:
+  1/ Đăng ký, đăng nhập, và quản lý thông tin cá nhân.
+  2/ Quản lý khoá học: thêm, sửa, xóa, và xem chi tiết.
+  3/ Đăng ký và hủy đăng ký khoá học cho học viên.
+  4/ Quản lý người dùng: thêm, sửa, xóa người dùng trong hệ thống.
+
+## II.Chi tiết chức năng:
+
+- 1. Module người dùng:
+     1/ Lấy danh sách & tìm kiếm khóa học
+     2/ Lấy chi tiết khóa học
+     3/ Lấy khóa học theo danh mục
+     4/ Đăng ký user
+     5/ Đăng nhập
+     6/ Chỉnh sửa thông tin cá nhân
+     7/ Đăng ký khóa học
+     8/ Hủy đăng ký khóa học
+     9/ Xem thông tin cá nhân
+     10/ Chỉnh sửa thông tin cá nhân
+
+- 2. Module quản trị:
+     1/Quản lý người dùng
+     2/ Quản lý khóa học
+     3/ Ghi danh và hủy ghi danh
+
+3. XÂY DỰNG LAYOUT & Responsive:
 
    - Đăng ký
    - Homepage
@@ -14,7 +41,7 @@ Phạm Đặng Anh Vương
      > Admin
      > Quản lý người dùng
 
-2. XỬ LÝ CHỨC NĂNG:
+4. XỬ LÝ CHỨC NĂNG:
 
    - Đăng ký
    - Đăng xuất
@@ -33,7 +60,7 @@ Phạm Đặng Anh Vương
      > Tìm kiếm người dùng
      > Ghi danh người dùng dựa vào khoá học
 
-3. XÂY DỰNG LAYOUT & Responsive:
+5. XÂY DỰNG LAYOUT & Responsive:
    - Đăng nhập
    - Homepage
    - Footer
@@ -42,7 +69,7 @@ Phạm Đặng Anh Vương
    - Spinner loading
    - Admin
    - Quản lý khoá học
-4. XỬ LÝ CHỨC NĂNG:
+6. XỬ LÝ CHỨC NĂNG:
    - Đăng nhập
    - Loading spinner
    - Danh mục khoá học
