@@ -45,7 +45,7 @@ function App() {
 
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
-        <BackTop style={{ color: "black" }} />
+        <BackTop style={{ color: "green" }} />
       </BrowserRouter>
     </>
   );

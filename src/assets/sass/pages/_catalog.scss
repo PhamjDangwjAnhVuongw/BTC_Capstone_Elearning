@@ -1,5 +1,5 @@
 .catalogCourses {
-    background: $green-1;
+    background: $blue1;
     color: white;
     padding: 20px;
     h1 {
@@ -19,7 +19,7 @@
     font-weight: 500;
     &:hover {
         transition: 0.3s;
-        border: 1px $green-1 solid;
-        color: $green-1;
+        border: 1px $orange1 solid;
+        color: $orange1;
     }
 }

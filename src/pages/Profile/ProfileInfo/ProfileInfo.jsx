@@ -4,7 +4,7 @@ import { Progress } from 'antd';
 
 export default function ProfileInfo({ user }) {
     
-    // todo: render skills in profile 
+    //Render skills in profile 
     const renderSkills = () => {
         let arrSkills = [
             { percent: RANDOM_NUM + 35, name: "HTML5" },
